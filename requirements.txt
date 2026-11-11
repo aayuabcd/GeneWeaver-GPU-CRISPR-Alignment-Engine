@@ -1,0 +1,6 @@
+biopython
+numpy
+numba
+dask
+textual
+pytest
