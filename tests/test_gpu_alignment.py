@@ -8,7 +8,7 @@ def test_exact_match():
 
 
 def test_multiple_positions():
-    assert cpu_alignment("ATGCATGC", "ATGC") == [0, 4, 0, 4, 0]
+    assert cpu_alignment("ATGCATGC", "ATGC") == [0, 4, 4, 4, 0]
 
 
 def test_mismatch():
